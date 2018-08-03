@@ -1,0 +1,6 @@
+Evaluation of signalling loads in a cognitive network management architecture
+A cognitive model-based approach for autonomic fault management in OpenFlow networks
+A new sensing-throughput tradeoff scheme in cooperative multiband cognitive radio network
+
+
+end in 5th page
