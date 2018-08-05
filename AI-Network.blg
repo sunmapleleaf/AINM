@@ -8,7 +8,7 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: reference.bib
-Repeated entry---line 199 of file reference.bib
+Repeated entry---line 200 of file reference.bib
  : @article{Saleem2017Clustering
  :                              ,
 I'm skipping whatever remains of this entry
@@ -21,45 +21,45 @@ Warning--empty journal in Xianfu2018Multi
 Warning--empty journal in J2018AI
 
 Done.
-You've used 24 entries,
+You've used 25 entries,
             4087 wiz_defined-function locations,
-            976 strings with 12737 characters,
-and the built_in function-call counts, 19197 in all, are:
-= -- 1543
-> -- 579
-< -- 151
-+ -- 308
-- -- 115
-* -- 966
-:= -- 2903
-add.period$ -- 48
-call.type$ -- 24
-change.case$ -- 24
-chr.to.int$ -- 288
-cite$ -- 28
-duplicate$ -- 1400
-empty$ -- 1394
-format.name$ -- 138
-if$ -- 4468
+            981 strings with 12936 characters,
+and the built_in function-call counts, 20332 in all, are:
+= -- 1627
+> -- 603
+< -- 167
++ -- 321
+- -- 117
+* -- 1019
+:= -- 3047
+add.period$ -- 50
+call.type$ -- 25
+change.case$ -- 25
+chr.to.int$ -- 333
+cite$ -- 29
+duplicate$ -- 1469
+empty$ -- 1489
+format.name$ -- 141
+if$ -- 4744
 int.to.chr$ -- 0
-int.to.str$ -- 24
-missing$ -- 268
-newline$ -- 95
-num.names$ -- 24
-pop$ -- 589
+int.to.str$ -- 25
+missing$ -- 277
+newline$ -- 98
+num.names$ -- 25
+pop$ -- 615
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 2
-skip$ -- 1471
+skip$ -- 1556
 stack$ -- 0
-substring$ -- 712
-swap$ -- 1175
-text.length$ -- 55
+substring$ -- 812
+swap$ -- 1240
+text.length$ -- 56
 text.prefix$ -- 0
 top$ -- 5
-type$ -- 24
+type$ -- 25
 warning$ -- 4
-while$ -- 80
-width$ -- 26
-write$ -- 265
+while$ -- 84
+width$ -- 27
+write$ -- 274
 (There was 1 error message)

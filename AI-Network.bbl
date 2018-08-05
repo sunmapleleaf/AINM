@@ -26,26 +26,21 @@ G.~P. Kumar and P.~Venkataram, ``Artificial intelligence approaches to network
   management: recent advances and a survey,'' \emph{Computer Communications},
   vol.~20, no.~15, pp. 1313--1322, 1997.
 
-\bibitem{Qi2007Artificial}
-J.~Qi, F.~Wu, L.~Li, and H.~Shu, ``Artificial intelligence applications in the
-  telecommunications industry,'' \emph{Expert Systems}, vol.~24, no.~4, p.
-  271–291, 2007.
-
-\bibitem{Qadir2016Artificial}
-J.~Qadir, ``Artificial intelligence based cognitive routing for cognitive radio
-  networks,'' \emph{Artificial Intelligence Review}, vol.~45, no.~1, pp. 1--72,
-  2016.
-
-\bibitem{Li2017Intelligent}
-R.~Li, Z.~Zhao, X.~Zhou, G.~Ding, Y.~Chen, Z.~Wang, and H.~Zhang, ``Intelligent
-  5g: When cellular networks meet artificial intelligence,'' \emph{IEEE
-  Wireless Communications}, vol.~PP, no.~99, pp. 2--10, 2017.
-
 \bibitem{Ayoubi2018Machine}
 S.~Ayoubi, N.~Limam, M.~A. Salahuddin, N.~Shahriar, R.~Boutaba,
   F.~Estrada-Solano, and O.~M. Caicedo, ``Machine learning for cognitive
   network management,'' \emph{IEEE Communications Magazine}, vol.~56, no.~1,
   pp. 158--165, 2018.
+
+\bibitem{Qi2007Artificial}
+J.~Qi, F.~Wu, L.~Li, and H.~Shu, ``Artificial intelligence applications in the
+  telecommunications industry,'' \emph{Expert Systems}, vol.~24, no.~4, p.
+  271–291, 2007.
+
+\bibitem{Li2017Intelligent}
+R.~Li, Z.~Zhao, X.~Zhou, G.~Ding, Y.~Chen, Z.~Wang, and H.~Zhang, ``Intelligent
+  5g: When cellular networks meet artificial intelligence,'' \emph{IEEE
+  Wireless Communications}, vol.~PP, no.~99, pp. 2--10, 2017.
 
 \bibitem{Boutaba2018A}
 R.~Boutaba, M.~A. Salahuddin, N.~Limam, S.~Ayoubi, N.~Shahriar,
@@ -106,6 +101,11 @@ C.~Xianfu, Z.~Zhifeng, W.~Celimuge, B.~Mehdi, L.~Hang, and H.~Zhang,
   ``Multi-tenant cross-slice resource orchestration: A deep reinforcement
   learning approach,'' 2018.
 
+\bibitem{Qadir2016Artificial}
+J.~Qadir, ``Artificial intelligence based cognitive routing for cognitive radio
+  networks,'' \emph{Artificial Intelligence Review}, vol.~45, no.~1, pp. 1--72,
+  2016.
+
 \bibitem{Hui2002Reinforcement}
 T.~Hui and T.~X. Brown, ``Reinforcement learning for call admission control and
   routing under quality of service constraints in multimedia networks,''
@@ -145,5 +145,10 @@ D.~López, E.~Rivas, and O.~Gualdron, ``Primary user characterization for
 H.~Ren, C.~Pan, N.~Liu, X.~H. Yu, M.~Elkashlan, A.~Nallanathan, and L.~Hanzo,
   ``Low-latency c-ran: A next-generation wireless approach,'' \emph{IEEE
   Vehicular Technology Magazine}, vol.~PP, no.~99, pp. 1--1, 2018.
+
+\bibitem{Kumar2002Network}
+G.~P. Kumar and P.~Venkataram, ``Network performance tuning using reinforcement
+  learning,'' in \emph{Global Telecommunications Conference, 1998. GLOBECOM
+  1998. The Bridge to Global Integration. IEEE}, 2002, pp. 1123--1128 vol.2.
 
 \end{thebibliography}
