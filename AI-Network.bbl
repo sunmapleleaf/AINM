@@ -32,15 +32,8 @@ S.~Ayoubi, N.~Limam, M.~A. Salahuddin, N.~Shahriar, R.~Boutaba,
   network management,'' \emph{IEEE Communications Magazine}, vol.~56, no.~1,
   pp. 158--165, 2018.
 
-\bibitem{Qi2007Artificial}
-J.~Qi, F.~Wu, L.~Li, and H.~Shu, ``Artificial intelligence applications in the
-  telecommunications industry,'' \emph{Expert Systems}, vol.~24, no.~4, p.
-  271–291, 2007.
-
-\bibitem{Li2017Intelligent}
-R.~Li, Z.~Zhao, X.~Zhou, G.~Ding, Y.~Chen, Z.~Wang, and H.~Zhang, ``Intelligent
-  5g: When cellular networks meet artificial intelligence,'' \emph{IEEE
-  Wireless Communications}, vol.~PP, no.~99, pp. 2--10, 2017.
+\bibitem{ITU1992TMN}
+I.-T.~R. M.3400, ``Tmn management functions,'' 1992.
 
 \bibitem{Boutaba2018A}
 R.~Boutaba, M.~A. Salahuddin, N.~Limam, S.~Ayoubi, N.~Shahriar,
@@ -48,6 +41,11 @@ R.~Boutaba, M.~A. Salahuddin, N.~Limam, S.~Ayoubi, N.~Shahriar,
   learning for networking: evolution, applications and research
   opportunities,'' \emph{Journal of Internet Services \& Applications}, vol.~9,
   no.~1, p.~16, 2018.
+
+\bibitem{Li2017Intelligent}
+R.~Li, Z.~Zhao, X.~Zhou, G.~Ding, Y.~Chen, Z.~Wang, and H.~Zhang, ``Intelligent
+  5g: When cellular networks meet artificial intelligence,'' \emph{IEEE
+  Wireless Communications}, vol.~PP, no.~99, pp. 2--10, 2017.
 
 \bibitem{Jiang2017Machine}
 C.~Jiang, H.~Zhang, Y.~Ren, Z.~Han, K.~C. Chen, and L.~Hanzo, ``Machine
@@ -81,26 +79,6 @@ Y.~Hua, Z.~Zhao, R.~Li, X.~Chen, Z.~Liu, and H.~Zhang, ``Traffic prediction
   based on random connectivity in deep learning with long short-term memory,''
   2017.
 
-\bibitem{Cao2017AIF}
-G.~Cao, Z.~Lu, X.~Wen, T.~Lei, and Z.~Hu, ``Aif : An artificial intelligence
-  framework for smart wireless network management,'' \emph{IEEE Communications
-  Letters}, vol.~PP, no.~99, pp. 1--1, 2017.
-
-\bibitem{Rovcanin2015Experimental}
-M.~Rovcanin, E.~D. Poorter, D.~V.~D. Akker, I.~Moerman, P.~Demeester, and
-  C.~Blondia, ``Experimental validation of a reinforcement learning based
-  approach for a service-wise optimisation of heterogeneous wireless sensor
-  networks,'' \emph{Wireless Networks}, vol.~21, no.~3, pp. 931--948, 2015.
-
-\bibitem{Zhao2018Deep}
-Z.~Zhao, R.~Li, Q.~Sun, I.~Chilin, Y.~Yang, X.~Chen, M.~Zhao, and H.~Zhang,
-  ``Deep reinforcement learning for network slicing,'' 2018.
-
-\bibitem{Xianfu2018Multi}
-C.~Xianfu, Z.~Zhifeng, W.~Celimuge, B.~Mehdi, L.~Hang, and H.~Zhang,
-  ``Multi-tenant cross-slice resource orchestration: A deep reinforcement
-  learning approach,'' 2018.
-
 \bibitem{Qadir2016Artificial}
 J.~Qadir, ``Artificial intelligence based cognitive routing for cognitive radio
   networks,'' \emph{Artificial Intelligence Review}, vol.~45, no.~1, pp. 1--72,
@@ -117,19 +95,10 @@ Y.~Saleem, K.~L.~A. Yau, H.~Mohamad, N.~Ramli, M.~H. Rehmani, and Q.~Ni,
   networks,'' \emph{IEEE Wireless Communications}, vol.~24, no.~4, pp.
   146--151, 2017.
 
-\bibitem{Rafique2018Cognitive}
-D.~Rafique, T.~Szyrkowiec, H.~Grieber, A.~Autenrieth, and J.~P. Elbers,
-  ``Cognitive assurance architecture for optical network fault management,''
-  \emph{Journal of Lightwave Technology}, vol.~PP, no.~99, pp. 1--1, 2018.
-
-\bibitem{Zheng2016Cognitive}
-Y.~Zheng, A.~Moini, W.~Lou, Y.~T. Hou, and Y.~Kawamoto, ``Cognitive security:
-  securing the burgeoning landscape of mobile networks,'' \emph{IEEE Network},
-  vol.~30, no.~4, pp. 66--71, 2016.
-
-\bibitem{J2018AI}
-L.~J, Z.~Z, L.~R, and H.~Zhang, ``Ai-based two-stage intrusion detection for
-  software defined iot networks,'' 2018.
+\bibitem{Cao2017AIF}
+G.~Cao, Z.~Lu, X.~Wen, T.~Lei, and Z.~Hu, ``Aif : An artificial intelligence
+  framework for smart wireless network management,'' \emph{IEEE Communications
+  Letters}, vol.~PP, no.~99, pp. 1--1, 2017.
 
 \bibitem{Morozs2016Cognitive}
 N.~Morozs, T.~Clarke, and D.~Grace, ``Cognitive spectrum management in dynamic
@@ -141,14 +110,129 @@ D.~López, E.~Rivas, and O.~Gualdron, ``Primary user characterization for
   cognitive radio wireless networks using a neural system based on deep
   learning,'' \emph{Artificial Intelligence Review}, pp. 1--27, 2017.
 
-\bibitem{Ren2018Low}
-H.~Ren, C.~Pan, N.~Liu, X.~H. Yu, M.~Elkashlan, A.~Nallanathan, and L.~Hanzo,
-  ``Low-latency c-ran: A next-generation wireless approach,'' \emph{IEEE
-  Vehicular Technology Magazine}, vol.~PP, no.~99, pp. 1--1, 2018.
+\bibitem{Maxion1990Anomaly}
+R.~A. Maxion, ``Anomaly detection for diagnosis,'' in \emph{Fault-Tolerant
+  Computing, 1990. Ftcs-20. Digest of Papers., International Symposium}, 1990,
+  pp. 20--27.
+
+\bibitem{Hood1997Proactive}
+C.~S. Hood and C.~Ji, ``Proactive network-fault detection
+  [telecommunications],'' \emph{IEEE Transactions on Reliability}, vol.~46,
+  no.~3, pp. 333--341, 1997.
+
+\bibitem{Ding2004Predictive}
+J.~Ding, B.~Kramer, S.~Xu, and H.~Chen, ``Predictive fault management in the
+  dynamic environment of ip networks,'' in \emph{IP Operations and Management,
+  2004. Proceedings IEEE Workshop on}, 2004, pp. 233--239.
+
+\bibitem{Snow2005Assessing}
+A.~Snow, P.~Rastogi, and G.~Weckman, ``Assessing dependability of wireless
+  networks using neural networks,'' in \emph{Military Communications
+  Conference, 2005. Milcom}, 2005, pp. 2809--2815 Vol. 5.
+
+\bibitem{Kogeda2006A}
+O.~P. Kogeda, J.~I. Agbinya, and C.~W. Omlin, ``A probabilistic approach to
+  faults prediction in cellular networks,'' in \emph{International Conference
+  on Networking, International Conference on Systems and International
+  Conference on Mobile Communications and Learning Technologies}, 2006, p. 130.
+
+\bibitem{Lu2010Using}
+X.~Lu, H.~Wang, R.~Zhou, and B.~Ge, ``Using hessian locally linear embedding
+  for autonomic failure prediction,'' in \emph{Nature \& Biologically Inspired
+  Computing, 2009. NaBIC 2009. World Congress on}, 2010, pp. 772--776.
+
+\bibitem{pellegrini2015machine}
+A.~Pellegrini, P.~Di~Sanzo, and D.~R. Avresky, ``A machine learning-based
+  framework for building application failure prediction models,'' in \emph{2015
+  IEEE International Parallel and Distributed Processing Symposium Workshop
+  (IPDPSW)}.\hskip 1em plus 0.5em minus 0.4em\relax IEEE, 2015, pp. 1072--1081.
+
+\bibitem{Song2017Failure}
+C.~Song, D.~Wang, J.~Li, L.~Lou, M.~Liu, M.~Zhang, Z.~Wang, and Z.~Liu,
+  ``Failure prediction using machine learning and time series in optical
+  network,'' \emph{Optics Express}, vol.~25, no.~16, pp. 18\,553--18\,565,
+  2017.
+
+\bibitem{Kumar2017Fault}
+Y.~Kumar, H.~Farooq, A.~Imran, Y.~Kumar, H.~Farooq, A.~Imran, Y.~Kumar,
+  H.~Farooq, A.~Imran, and Y.~Kumar, ``Fault prediction and reliability
+  analysis in a real cellular network,'' in \emph{International Wireless
+  Communications and Mobile Computing Conference}, 2017, pp. 1090--1095.
+
+\bibitem{baras1997automated}
+J.~S. Baras, M.~Ball, S.~Gupta, P.~Viswanathan, and P.~Shah, ``Automated
+  network fault management,'' in \emph{MILCOM 97 Proceedings}, vol.~3.\hskip
+  1em plus 0.5em minus 0.4em\relax IEEE, 1997, pp. 1244--1250.
+
+\bibitem{Rao2006Operational}
+S.~Rao, ``Operational fault detection in cellular wireless base-stations,''
+  \emph{IEEE Transactions on Network \& Service Management}, vol.~3, no.~2, pp.
+  1--11, 2006.
+
+\bibitem{Qader2017Comparative}
+K.~Qader, A.~Mo, and M.~Alkasassbeh, ``Comparative analysis of clustering
+  techniques in network traffic faults classification,'' \emph{International
+  Journal of Innovative Research in Computer \& Communication Engineering},
+  vol. Volume 5, no. Issue 4, pp. 6551--6563, 2017.
+
+\bibitem{Qader2014Fault}
+K.~Qader and A.~Mo, ``Fault classification system for computer networks using
+  fuzzy probabilistic neural network classifier (fpnnc),'' \emph{Communications
+  in Computer \& Information Science}, vol. 459, no.~9, pp. 4789--4807, 2014.
+
+\bibitem{Moustapha2008Wireless}
+A.~I. Moustapha and R.~R. Selmic, ``Wireless sensor network modeling using
+  modified recurrent neural networks: Application to fault detection,''
+  \emph{IEEE Transactions on Instrumentation \& Measurement}, vol.~57, no.~5,
+  pp. 981--988, 2008.
+
+\bibitem{Hajji2005Statistical}
+H.~Hajji, ``Statistical analysis of network traffic for adaptive faults
+  detection,'' \emph{IEEE Transactions on Neural Networks}, vol.~16, no.~5, p.
+  1053, 2005.
+
+\bibitem{Hashmi2017Enabling}
+U.~S. Hashmi, A.~Darbandi, and A.~Imran, ``Enabling proactive self-healing by
+  data mining network failure logs,'' in \emph{International Conference on
+  Computing, NETWORKING and Communications}, 2017, pp. 511--517.
+
+\bibitem{Rafique2018Cognitive}
+D.~Rafique, T.~Szyrkowiec, H.~Grieber, A.~Autenrieth, and J.~P. Elbers,
+  ``Cognitive assurance architecture for optical network fault management,''
+  \emph{Journal of Lightwave Technology}, vol.~PP, no.~99, pp. 1--1, 2018.
 
 \bibitem{Kumar2002Network}
 G.~P. Kumar and P.~Venkataram, ``Network performance tuning using reinforcement
   learning,'' in \emph{Global Telecommunications Conference, 1998. GLOBECOM
   1998. The Bridge to Global Integration. IEEE}, 2002, pp. 1123--1128 vol.2.
+
+\bibitem{Zheng2016Cognitive}
+Y.~Zheng, A.~Moini, W.~Lou, Y.~T. Hou, and Y.~Kawamoto, ``Cognitive security:
+  securing the burgeoning landscape of mobile networks,'' \emph{IEEE Network},
+  vol.~30, no.~4, pp. 66--71, 2016.
+
+\bibitem{J2018AI}
+L.~J, Z.~Z, L.~R, and H.~Zhang, ``Ai-based two-stage intrusion detection for
+  software defined iot networks,'' 2018.
+
+\bibitem{Rovcanin2015Experimental}
+M.~Rovcanin, E.~D. Poorter, D.~V.~D. Akker, I.~Moerman, P.~Demeester, and
+  C.~Blondia, ``Experimental validation of a reinforcement learning based
+  approach for a service-wise optimisation of heterogeneous wireless sensor
+  networks,'' \emph{Wireless Networks}, vol.~21, no.~3, pp. 931--948, 2015.
+
+\bibitem{Zhao2018Deep}
+Z.~Zhao, R.~Li, Q.~Sun, I.~Chilin, Y.~Yang, X.~Chen, M.~Zhao, and H.~Zhang,
+  ``Deep reinforcement learning for network slicing,'' 2018.
+
+\bibitem{Xianfu2018Multi}
+C.~Xianfu, Z.~Zhifeng, W.~Celimuge, B.~Mehdi, L.~Hang, and H.~Zhang,
+  ``Multi-tenant cross-slice resource orchestration: A deep reinforcement
+  learning approach,'' 2018.
+
+\bibitem{Ren2018Low}
+H.~Ren, C.~Pan, N.~Liu, X.~H. Yu, M.~Elkashlan, A.~Nallanathan, and L.~Hanzo,
+  ``Low-latency c-ran: A next-generation wireless approach,'' \emph{IEEE
+  Vehicular Technology Magazine}, vol.~PP, no.~99, pp. 1--1, 2018.
 
 \end{thebibliography}

@@ -8,58 +8,59 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: reference.bib
-Repeated entry---line 200 of file reference.bib
+Repeated entry---line 415 of file reference.bib
  : @article{Saleem2017Clustering
  :                              ,
 I'm skipping whatever remains of this entry
 -- IEEEtran.bst version 1.14 (2015/08/26) by Michael Shell.
 -- http://www.michaelshell.org/tex/ieeetran/bibtex/
 -- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
+Warning--empty journal in ITU1992TMN
 Warning--empty journal in Hua2017Traffic
+Warning--empty journal in J2018AI
 Warning--empty journal in Zhao2018Deep
 Warning--empty journal in Xianfu2018Multi
-Warning--empty journal in J2018AI
 
 Done.
-You've used 25 entries,
+You've used 41 entries,
             4087 wiz_defined-function locations,
-            981 strings with 12936 characters,
-and the built_in function-call counts, 20332 in all, are:
-= -- 1627
-> -- 603
-< -- 167
-+ -- 321
-- -- 117
-* -- 1019
-:= -- 3047
-add.period$ -- 50
-call.type$ -- 25
-change.case$ -- 25
-chr.to.int$ -- 333
-cite$ -- 29
-duplicate$ -- 1469
-empty$ -- 1489
-format.name$ -- 141
-if$ -- 4744
+            1085 strings with 16473 characters,
+and the built_in function-call counts, 34654 in all, are:
+= -- 2748
+> -- 941
+< -- 313
++ -- 525
+- -- 175
+* -- 1700
+:= -- 5044
+add.period$ -- 84
+call.type$ -- 41
+change.case$ -- 41
+chr.to.int$ -- 687
+cite$ -- 46
+duplicate$ -- 2453
+empty$ -- 2660
+format.name$ -- 205
+if$ -- 8166
 int.to.chr$ -- 0
-int.to.str$ -- 25
-missing$ -- 277
-newline$ -- 98
-num.names$ -- 25
-pop$ -- 615
+int.to.str$ -- 41
+missing$ -- 439
+newline$ -- 146
+num.names$ -- 41
+pop$ -- 990
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 2
-skip$ -- 1556
+skip$ -- 2669
 stack$ -- 0
-substring$ -- 812
-swap$ -- 1240
-text.length$ -- 56
+substring$ -- 1658
+swap$ -- 2086
+text.length$ -- 84
 text.prefix$ -- 0
 top$ -- 5
-type$ -- 25
-warning$ -- 4
-while$ -- 84
-width$ -- 27
-write$ -- 274
+type$ -- 41
+warning$ -- 5
+while$ -- 145
+width$ -- 43
+write$ -- 429
 (There was 1 error message)

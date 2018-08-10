@@ -44,7 +44,7 @@
 
 \begin{document}
 
-\title{A Review of Artificial intelligence approaches to network management}
+\title{An Initial Survey of Artificial Intelligence Approaches to Network Management}
 
 \maketitle
 
@@ -56,14 +56,14 @@
 % 
 % ^.
 \begin{abstract}
-.
+From my point of view, the artificial intelligence (AI) based network management (NM) could be five classifications: fault, configuration, accounting, performance and security management. In my mind, the next step: write a survey as the start of my research and have a test to understand AI and NM in depth. \textcolor{blue}{After the meeting, we have a better next step that narrowed the network management into flexible industrial automation application integrated with AI and continue to research the state of the art. Meanwhile, we make a simple outline of the topic and find its possibility to apply the European research project together with HDU and other relevant organizations.\footnote{\textcolor{blue}{the blue sentences are the ideas after the meeting.}}}  
  
 
 \end{abstract}
 
 % Note that keywords are not normally used for peerreview papers.
 \begin{IEEEkeywords}
-Review,Artificial intelligence, Network Management
+Review, Artificial intelligence, Network Management
 \end{IEEEkeywords}
 
 % For peer review papers, you can put extra information on the cover
@@ -76,10 +76,16 @@ Review,Artificial intelligence, Network Management
 % creates the second title. It will be ignored for other modes.
 \IEEEpeerreviewmaketitle
 
-
-
 \section{Introduction}
-There are some labs focusing on machine learning, AI (artificial intelligence), self* (self-configuring, self-healing, self-optimizing and self-protecting), cognitive of NM (network management). Table \ref{table:Labs} shows the information of labs working on AI-based NM. To my best knowledge, it is ranked by importance.
+For past three weeks, my biggest gain is that I have an overview of AI-based NM although I do not understand all of the papers well after a sample survey of over 50 papers. During this time, the deepest impressions are that at the very early year, even earlier than 1990's, there has been various papers discussing every aspect of network management using AI technologies. To date, definitely, it has become much hotter. The differences are nowadays we use much more complex algorithms and we have much more strong computing ability and much more kinds of application scenarios. 
+
+For AI, when we talk it, in most cases, we mean machine learning. Normally, machine learning is divided into three learning paradigms: supervised, un-supervised and reinforcement learning. When we want to implement some applications. We should also usage some theory or technologies for related paradigm, such as Bayesian theory, Support Vector Machine (SVM), Hidden Markov Model, Q-learning or various kinds of Neural Networks etc. 
+
+Meanwhile, there are various types of communication network appeared in papers: wireless network, cellular network, optical network, IP network, ad hoc network, radio network etc.
+
+Hence, when AI meet NM. We get more concepts, such as machine learning based, AI-based, self-organize (self-configuring, self-healing, self-optimizing and self-protecting), cognitive together with types of network.  
+
+Furthermore, lots of labs are focusing on these concepts. Table \ref{table:Labs} shows the information of part of the labs. To my best knowledge, it is ranked by importance and of course, it is not complete. I will continuously update this survey.
 
 \begin{table*}
 	\scriptsize \caption{Information of labs working on AI-based NM}
@@ -89,40 +95,40 @@ There are some labs focusing on machine learning, AI (artificial intelligence), 
 		\setlength\tabcolsep{3pt}
 		\begin{tabular}{|l|c|c|c|c|c|}
 			\hline
-			Leader&Country&  University & Personal Publications& collected papers  & key words\\
+			Head&Country& University &Personal Articles& collected papers  & key words\\
 			\hline
-			Boutaba &Canada &University of Waterloo&500  & 2      &       \\
+			R. Boutaba &Canada &University of Waterloo&199  & 2      &       \\
 			\hline
-			Honggang Zhang & China & Zhejiang University&300  & 7  &       \\
+			Honggang Zhang & China & Zhejiang University&190  & 7  &       \\
             \hline
- 			Hanzo Lajos  & UK  & University of Southampton&1400 & 2  &       \\
+ 			Hanzo Lajos  & UK  & University of Southampton&1216 & 2  &       \\
             \hline  
- 			Riihijarvi J, Mahonen P&Germany&RWTH Aachen University&200 & 1& \\
+ 			Petri Mähönen&Germany&RWTH Aachen University&235 & 1& \\
             \hline  
- 			P. Venkataram P&India&Indian Institute of Science& & 2& \\
+ 			P. Venkataram P&India&Indian Institute of Science&143 & 2& \\
             \hline 
- 			Xiangming Wen&China& Beijing University of Posts and Telecommunications && 2  &       \\
+ 			Xiangming Wen&China& Beijing University of Posts and Telecommunications &210& 2  &       \\
             \hline  
- 			Qadir J.&Pakistan&National University of Sciences and Technology&&1& \\
-            \hline 
- 			Sven G. Bilén&USA& Pennsylvania State University&&1& \\
+ 			Qadir J.&Pakistan&National University of Sciences and Technology&67&1& \\
             \hline         
 		\end{tabular}
 	\end{center}
 \end{table*}
 
+As the most important thing, the classification of NM direction is defined differently by different researchers.
 
-Kumar, et al. \cite{Kumar1997Artificial}, in 1997 a very early year, give a overview of the artificial intelligence in NM which is classified into \textbf{fault management, configuration management, accounting management, performance management, security management} but more expert system than AI technologies are discussed. 20 years later, \cite{Ayoubi2018Machine} from University of Waterloo describes the overview of machine learning as the same classifications meanwhile they have explained more machine learning technologies and provided an impressive framework named C-MAPE (Cognitive-Monitor-Analyze-Plan-Execute over a shared Knowledge) in FIG.\ref{fig:CMAPE}. Then, in \cite{Boutaba2018A}, Boutaba, et al. have a much more comprehensive discussion of machine learning on networking which has over 500 citations. It contains 8 directions: \textbf{traffic prediction, traffic classification, traffic routing, congestion control, resource management, fault management, QoS and QoE management, network security}, illustrated in FIG. \ref{fig:MLinN}. 
+Kumar, et al. \cite{Kumar1997Artificial}, in 1997 a very early year, give an overview of the AI in NM which is classified into \textbf{fault management, configuration management, accounting management, performance management, security management} but more expert system than AI technologies are discussed. 20 years later, \cite{Ayoubi2018Machine} from University of Waterloo describes the overview of machine learning as the same classifications meanwhile they have explained more machine learning technologies and provided an impressive framework named C-MAPE (Cognitive-Monitor-Analyze-Plan-Execute over a shared Knowledge) in FIG.\ref{fig:CMAPE}. This kind of classifications comes from \textbf{Telecommunications Management Network (TMN) Recommendations} \cite{ITU1992TMN}.
+
+Then, in \cite{Boutaba2018A}, Boutaba, et al. have a much more comprehensive discussion of machine learning on networking which has over 500 citations. It contains 8 directions: \textbf{traffic prediction, traffic classification, traffic routing, congestion control, resource management, fault management, QoS and QoE management, network security} and each direction has its subsections, illustrated in FIG. \ref{fig:MLinN}. 
 
 
 
-Li Rongpeng, et al. \cite{Li2017Intelligent} presents the artificial intelligence int context of 5G and have a different view of the classifications which are \textbf{radio resource management, mobility management, management and orchestration, service provisioning management}.
+Li Rongpeng, et al. \cite{Li2017Intelligent} presents the AI int context of 5G and have a different view of the classifications which are \textbf{radio resource management, mobility management, management and orchestration, service provisioning management}.
 
 Jiang and Hanzo Lajos in \cite{Jiang2017Machine} also provides a machine learning paradigms in 5G shown in FIG. \ref{fig:MLin5G}. They distinguish the applications as the type of machine learning.
 
-Qi, et al. \cite{Qi2007Artificial} provides us a comprehensive discussion in network management.
-
-
+Then, under the guide of these survey, I read some papers simply and when I have a look of a paper, I will record something to its related section below. 
+%Qi, et al. \cite{Qi2007Artificial} provides us a comprehensive discussion in network management.
 
 \begin{figure}
 	\centering
@@ -146,20 +152,81 @@ Qi, et al. \cite{Qi2007Artificial} provides us a comprehensive discussion in net
 \end{figure*}
 
 
-\section{Artificial intelligence}
-\section{Overview of Network Management}
+\section{Overview of AI}
+\subsection{Supervised Learning}
+
+\subsection{Un-supervised Learning}
+
+\subsection{Reinforcement Learning}
+\section{Overview of NM}
 \subsection{Traffic Classification}
 \cite{Williams2006A} is a review of traffic classification. Then a lot of papers\cite{Jin2012A,Huang2012On,Soysal2010Machine} discuss about it.
 \subsection{Traffic Prediction}
 \cite{Hua2017Traffic} from Zhejiang University is about traffic prediction.
 \subsection{Traffic Routing}
 Qadir\cite{Qadir2016Artificial} from Pakistan gaves us a review about congnitive routing.
-\cite{Hui2002Reinforcement}
 
-\cite{Saleem2017Clustering}
+\cite{Hui2002Reinforcement}, \cite{Saleem2017Clustering}
+
+
 
 \subsection{Mobility Management}
-\cite{Cao2017AIF} poses a AI framework for wireless network management which is used in a case of mobility management, where a ping-pong problem is addressed.  
+\cite{Cao2017AIF} poses a AI framework for wireless NM which is used in a case of mobility management, where a ping-pong problem is addressed.  
+
+\subsection{Resource management}
+\cite{Morozs2016Cognitive,L2017Primary} are about spectrum management.
+
+\subsection{Fault Management}
+
+The key elements in fault management are: fault prevention, fault detection, fault localization and isolation, fault repair and restoration.
+
+\cite{Maxion1990Anomaly} is a very early paper using machine learning without specify of it.
+
+\cite{Hood1997Proactive} uses the log data to train the Bayesian network for fault detection and provides  a wired office network
+
+\cite{Ding2004Predictive} presents a dynamic Bayesian Network for large IP network which improves the problem of \cite{Hood1997Proactive} that dynamically evolve over time.
+
+\cite{Snow2005Assessing} poses a limited method of NN to estimate the dependability of a 2G wireless network.
+
+
+\cite{Kogeda2006A}, \cite{Lu2010Using} 
+
+\cite{pellegrini2015machine} is a framework of machine learning.
+
+\cite{Song2017Failure} poses a ML method based on physical indicates in optical networks.
+
+\cite{Kumar2017Fault}
+
+
+
+Fault detection
+\cite{baras1997automated} is a early paper discussing fault detection using NN.
+
+\cite{Rao2006Operational} propses a method of Operational Fault Detection whose fault or alarm thresholds are determined by learning expected deviations during a training phase.
+
+\cite{Qader2017Comparative} build a real-time fault detection and classification model.
+
+\cite{Qader2014Fault} select 12 features  and use the traffic patterns to form clusters that represent normal traffic, link failure, server crash, broadcast storm and protocol error.
+
+
+\cite{Moustapha2008Wireless} detect faulty nodes in a WSN using RNN.
+
+\cite{Hajji2005Statistical}  propose an unsupervised fault detection mechanism.
+
+\cite{Hashmi2017Enabling} use different unsupervised algorithms to detect faults in a broadband service provider network that serves about 1.3 million customers.
+
+
+\cite{Rafique2018Cognitive}
+
+\subsection{Performance management}
+\cite{Kumar2002Network} used the RL to turning the management when performance degradation occurs. From my point of view, it have used the DQL (Deep Q-learning).
+
+\subsection{Security Management}
+
+\cite{Zheng2016Cognitive,J2018AI}
+
+
+
 
 
 \subsection{Service Management}
@@ -167,36 +234,33 @@ Qadir\cite{Qadir2016Artificial} from Pakistan gaves us a review about congnitive
 
 \cite{Zhao2018Deep,Xianfu2018Multi} presents reinforcement approachs to service slicing. 
 
-
-\subsection{Fault Management}
-
-\cite{Rafique2018Cognitive}
-
-
-\subsection{Security Management}
-
-\cite{Zheng2016Cognitive,J2018AI}
-
-\subsection{Source management}
-\cite{Morozs2016Cognitive,L2017Primary} are about spectrum management.
-
-
-\subsection{Performance management}
-\cite{Kumar2002Network} used the RL to turning the management when performance degradation occurs. From my point of view, it have used the DQL (Deep Q-learning).
-
-
 \subsection{Platform}
-\cite{Ren2018Low}
+\cite{Ren2018Low} pose a platform of AI-based NM.
 
 
-\section{Opportunities and Challenges}
+\section{A Case of Reinforcement Learning}
 
 
 
 \section{Conclusion}
 \label{conclusion}
+After having a look of these papers, I strongly agree with the 5-type classification: \textbf{fault, configuration, accounting, performance and security management}. I think fault, performance and accounting management are three stages of NM. Configuration and security management effect throughout the NM. 
 
+Since the past papers are too much of all 5 classifications, I think I must narrow my topic into one of them firstly. 
 
+If I should select one from the 5, the fault management would be better. Because it is the first step of NM. However, several questions are still confused me. Firstly, to my best knowledge, as far as I know, lots of work also have been done on fault management. Maybe if we further narrow it to industry or automation then the situation maybe changed. On the other hand, I want my topic which would be usable to some further projects and could be studied for a long time, not just limited to PhD study and could be based on ifak's past research. From my point of view, these three points are important but I do not know how to deal with it. Additionally, if fault management is the topic, is it relatively a little bit easier to do some experiment or have some implementations later. \textcolor{blue}{After the meeting, most of the confusions are clarified.} 
+
+If the topic has an initial decision. For the next stage, I plan to do two things.
+\begin{enumerate}
+	\item Write a survey of my topic as the beginning of my research and hopefully it will be published in a journal.
+	\item Have a test of wireless AI which will let me know both NM and AI in depth.
+\end{enumerate}
+
+\textcolor{blue}{After the meeting, since the network management could be narrowed into flexible industrial automation application, we have the new next step:
+\begin{enumerate}
+	\item Continue to research the state of the art and make a simple outline of the topic.
+	\item Find the possibility to apply the European research project together with HDU and the application deadline of the possible European project is 2019.3.  
+\end{enumerate}}
 
 
 \ifCLASSOPTIONcaptionsoff
